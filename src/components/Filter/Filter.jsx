@@ -4,6 +4,11 @@ import PropTypes from 'prop-types';
 export const Filter = ({setFilter}) => {
   const {label, input} = styles;
 
+  const filterContacts = (e) => {
+    const value = e.target.value.toLowerCase();
+    setFilter(value);
+  }
+
   return (
     <>
       <label className={label}>
@@ -11,7 +16,7 @@ export const Filter = ({setFilter}) => {
         <input 
           className={input} 
           type="text"
-          onChange={setFilter}
+          onChange={filterContacts}
         />
       </label>
     </>
