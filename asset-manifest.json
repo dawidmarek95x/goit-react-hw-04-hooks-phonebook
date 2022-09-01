@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-04-hooks-phonebook/static/css/main.85261fb6.css",
-    "main.js": "/goit-react-hw-04-hooks-phonebook/static/js/main.72092400.js",
+    "main.css": "/goit-react-hw-04-hooks-phonebook/static/css/main.e400c3c1.css",
+    "main.js": "/goit-react-hw-04-hooks-phonebook/static/js/main.084ab161.js",
     "index.html": "/goit-react-hw-04-hooks-phonebook/index.html",
     "static/media/cross.svg": "/goit-react-hw-04-hooks-phonebook/static/media/cross.d5ab96da0d54fcdcdcde.svg",
     "static/media/phone.svg": "/goit-react-hw-04-hooks-phonebook/static/media/phone.9553808c2045790e30e5.svg",
-    "main.85261fb6.css.map": "/goit-react-hw-04-hooks-phonebook/static/css/main.85261fb6.css.map",
-    "main.72092400.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/main.72092400.js.map"
+    "main.e400c3c1.css.map": "/goit-react-hw-04-hooks-phonebook/static/css/main.e400c3c1.css.map",
+    "main.084ab161.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/main.084ab161.js.map"
   },
   "entrypoints": [
-    "static/css/main.85261fb6.css",
-    "static/js/main.72092400.js"
+    "static/css/main.e400c3c1.css",
+    "static/js/main.084ab161.js"
   ]
 }
