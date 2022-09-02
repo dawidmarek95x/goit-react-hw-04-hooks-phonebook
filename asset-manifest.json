@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-04-hooks-phonebook/static/css/main.e400c3c1.css",
-    "main.js": "/goit-react-hw-04-hooks-phonebook/static/js/main.084ab161.js",
+    "main.css": "/goit-react-hw-04-hooks-phonebook/static/css/main.e1e13f1f.css",
+    "main.js": "/goit-react-hw-04-hooks-phonebook/static/js/main.992c01be.js",
     "index.html": "/goit-react-hw-04-hooks-phonebook/index.html",
-    "static/media/cross.svg": "/goit-react-hw-04-hooks-phonebook/static/media/cross.d5ab96da0d54fcdcdcde.svg",
-    "static/media/phone.svg": "/goit-react-hw-04-hooks-phonebook/static/media/phone.9553808c2045790e30e5.svg",
-    "main.e400c3c1.css.map": "/goit-react-hw-04-hooks-phonebook/static/css/main.e400c3c1.css.map",
-    "main.084ab161.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/main.084ab161.js.map"
+    "static/media/cross.svg": "/goit-react-hw-04-hooks-phonebook/static/media/cross.d5ab96da0d54fcdcdcde3e1f38b2c478.svg",
+    "static/media/address-book.svg": "/goit-react-hw-04-hooks-phonebook/static/media/address-book.440464a8f2c2eab05ade28ee1a3a5e8e.svg",
+    "static/media/phone.svg": "/goit-react-hw-04-hooks-phonebook/static/media/phone.9553808c2045790e30e550f74b5bed2b.svg",
+    "main.e1e13f1f.css.map": "/goit-react-hw-04-hooks-phonebook/static/css/main.e1e13f1f.css.map",
+    "main.992c01be.js.map": "/goit-react-hw-04-hooks-phonebook/static/js/main.992c01be.js.map"
   },
   "entrypoints": [
-    "static/css/main.e400c3c1.css",
-    "static/js/main.084ab161.js"
+    "static/css/main.e1e13f1f.css",
+    "static/js/main.992c01be.js"
   ]
 }
