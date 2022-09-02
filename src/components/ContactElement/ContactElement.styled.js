@@ -13,6 +13,10 @@ export const Wrapper = styled.div`
   align-items: center;
   padding-bottom: 3px;
   border-bottom: 1px solid gray;
+
+  &:hover {
+    border-color: orangered;
+  }
 `;
 
 export const Button = styled.button`
