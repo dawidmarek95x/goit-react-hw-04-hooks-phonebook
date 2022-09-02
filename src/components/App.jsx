@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from "./ContactForm/ContactForm";
 import ContactList from "./ContactList/ContactList";
 import Filter from "./Filter/Filter";
-import { AppWrapper } from "./App.styled";
+import { AppWrapper, LogoIcon } from "./App.styled";
 import { loadFromLocalStorage, saveToLocalStorage } from "services/localStorageSupport";
 
 export const App = () => {
@@ -46,7 +46,9 @@ export const App = () => {
 
   return (
     <AppWrapper>
-      <h1>Phonebook</h1>
+      <h1>
+        <LogoIcon />Phonebook
+      </h1>
       <ContactForm 
         addContact={addContact}
       />

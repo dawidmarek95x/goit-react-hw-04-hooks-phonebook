@@ -1,9 +1,7 @@
-import styles from './Filter.module.scss';
 import PropTypes from 'prop-types';
+import { Input, Label } from './Filter.styled';
 
 export const Filter = ({setFilter}) => {
-  const {label, input} = styles;
-
   const filterContacts = (e) => {
     const value = e.target.value.toLowerCase();
     setFilter(value);
@@ -11,14 +9,13 @@ export const Filter = ({setFilter}) => {
 
   return (
     <>
-      <label className={label}>
+      <Label>
         Find contacts by name
-        <input 
-          className={input} 
+        <Input
           type="text"
           onChange={filterContacts}
         />
-      </label>
+      </Label>
     </>
   )
 }

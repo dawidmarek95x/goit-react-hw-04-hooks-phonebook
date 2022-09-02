@@ -1,24 +1,28 @@
-.item {
+import styled from "styled-components";
+import crossIcon from './images/cross.svg';
+import phoneIcon from './images/phone.svg';
+
+export const Item = styled.li`
   &:not(:last-child) {
     margin-bottom: 5px;
   }
-}
+`;
 
-.wrapper {
+export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   padding-bottom: 3px;
   border-bottom: 1px solid gray;
-}
+`;
 
-.btn {
+export const Button = styled.button`
   min-width: 18px;
   min-height: 18px;
   margin-left: 5px;
   border: 1px solid rgb(49, 49, 49);
   border-radius: 50%;
-  background-color: initial;
-  background-image: url("./images/cross.svg");
+  background-color: #F6FCCE;
+  background-image: url(${crossIcon});
   background-repeat: no-repeat;
   background-position: center;
   background-size: 8px;
@@ -28,16 +32,15 @@
     background-color: rgb(245, 108, 108);
     transition: background-color 200ms;
   }
-}
+`;
 
-.link {
-  @extend .btn;
+export const Link = styled(Button)`
   margin-left: auto;
-  background-image: url("./images/phone.svg");
+  background-image: url(${phoneIcon});
   background-size: 10px;
 
   &:hover {
     background-color: rgb(119, 245, 108);
     transition: background-color 200ms;
   }
-}
+`;

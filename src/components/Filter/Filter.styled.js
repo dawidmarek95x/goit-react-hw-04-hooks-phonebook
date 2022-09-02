@@ -1,19 +1,21 @@
-.label {
+import styled from "styled-components";
+
+export const Label = styled.label`
   display: flex;
   flex-direction: column;
   max-width: 270px;
   width: 100%;
   font-size: 16px;
-}
+`;
 
-.input {
+export const Input = styled.input`
   font-size: 14px;
   margin-top: 5px;
   padding: 5px;
   border: 1px solid gray;
   outline: none;
   line-height: 1.25;
-  background-color: rgba(135, 245, 190, 0.5);
+  background-color: #F6FCCE;
   border-radius: 5px;
 
   &:hover {
@@ -31,4 +33,4 @@
     -moz-box-shadow: 0px 0px 4px 0px rgba(6, 114, 60, 0.7);
     transition: border-color 600ms, box-shadow 600ms;
   }
-}
+`;

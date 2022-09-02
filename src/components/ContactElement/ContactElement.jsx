@@ -1,23 +1,18 @@
-import styles from './ContactElement.module.scss';
 import PropTypes from 'prop-types';
+import { Button, Item, Link, Wrapper } from './ContactElement.styled';
 
 export const ContactElement = ({id, name, number, deleteContact}) => {
-  const {item, btn, link, wrapper} = styles;
-
   return (
-    <>
-      <li className={item}>
-        <div className={wrapper}>
-          <span>{name}: {number}</span>
-          <a className={link} href={`tel:${number}`}> </a>
-          <button 
-            className={btn} 
-            type="button" 
-            onClick={deleteContact(id)}>
-          </button>
-        </div>
-      </li>
-    </>
+    <Item>
+      <Wrapper>
+        <span>{name}: {number}</span>
+        <Link href={`tel:${number}`}> </Link>
+        <Button
+          type="button" 
+          onClick={deleteContact(id)}>
+        </Button>
+      </Wrapper>
+    </Item>
   )
 }
 

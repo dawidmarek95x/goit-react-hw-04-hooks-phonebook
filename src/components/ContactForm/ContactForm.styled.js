@@ -24,7 +24,7 @@ export const Input = styled.input`
   border: 1px solid gray;
   outline: none;
   line-height: 1.25;
-  background-color: rgba(199, 245, 247, 0.5);
+  background-color: #F6FCCE;
   border-radius: 5px;
 
   &:hover {
@@ -47,25 +47,25 @@ export const Input = styled.input`
 export const Button = styled.button`
   max-width: 120px;
   margin: 0 auto;
-  padding: 3px 7px;
+  padding: 5px 10px;
   border: 1px solid rgb(173, 173, 173);
   border-radius: 5px;
   font-size: 14px;
   text-transform: capitalize;
   color: black;
   background-color: rgb(255, 255, 255);
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(37, 145, 172, 0.7);
-  -moz-box-shadow: 0px 0px 2px 0px rgba(37, 145, 172, 0.7);
-  box-shadow: 0px 0px 2px 0px rgba(37, 145, 172, 0.7);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(219, 174, 61, 0.7);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(219, 174, 61, 0.7);
+  box-shadow: 0px 0px 2px 0px rgba(219, 174, 61, 0.7);
   transition: color 1200ms, border-color 1200ms, background-color 1200ms, box-shadow 1200ms;
 
   &:hover {
     color: white;
-    border-color: rgb(37, 145, 172);
-    background-color: rgb(37, 145, 172);
-    box-shadow: 0px 0px 4px 0px rgba(37, 145, 172, 0.7);
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(37, 145, 172, 0.7);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(37, 145, 172, 0.7);
+    border-color: rgb(219, 174, 61);
+    background-color: rgb(219, 174, 61);
+    box-shadow: 0px 0px 4px 0px rgba(219, 174, 61, 0.7);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(219, 174, 61, 0.7);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(219, 174, 61, 0.7);
     transition: color 600ms, border-color 600ms, background-color 600ms, box-shadow 600ms;
   }
 `;
