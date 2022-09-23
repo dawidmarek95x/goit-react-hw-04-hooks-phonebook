@@ -3,7 +3,7 @@
 ## Project info
 Application for storing contacts in the phone book with the possibility of redirection to the number of a selected contact.
 
-**Project link:** [Phonebook App](https://github.com/dawidmarek95x/goit-react-hw-04-hooks-phonebook)
+**Project link:** [Phonebook App](https://dawidmarek95x.github.io/goit-react-hw-04-hooks-phonebook/)
 
 ## Technologies
 **Project was created with:**
